@@ -19,7 +19,12 @@ Transaction builder with switch cases if you want to add support for other type 
 - you can also see the transaction in your Ganache instance
 
 # Accounts
-The first two accounts provided by Ganache are used. The private key is imported using the ```.env``` file. In production this should never be visible but here it is included for illustration purposes. 
+The first two accounts provided by Ganache are used. The private key is imported using the ```.env``` file. In production this should never be visible but here it is included for illustration purposes.
+
+# Gist
+Couple of Gist files for fun:
+- [send_ether.js](https://gist.github.com/NFhbar/5d658235e3ed19bf1816a8d83853a792)
+- [tx_builder.js](https://gist.github.com/NFhbar/f8995f9ca6c9000d127419b77cf73411)
 
 # License
 [MIT](https://github.com/OpenZeppelin/zeppelin-solidity/blob/master/LICENSE)
