@@ -18,5 +18,8 @@ Transaction builder with switch cases if you want to add support for other type 
 - console will return receipt
 - you can also see the transaction in your Ganache instance
 
+# Accounts
+The first two accounts provided by Ganache are used. The private key is imported using the ```.env``` file. In production this should never be visible but here it is included for illustration purposes. 
+
 # License
 [MIT](https://github.com/OpenZeppelin/zeppelin-solidity/blob/master/LICENSE)
