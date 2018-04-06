@@ -1,6 +1,6 @@
-import web3 from '../web3/web3.js';
-import txBuilder from './tx_builder';
-import {sender_account, receiver_account} from '../accounts/accounts';
+import web3 from '../helpers/web3.js';
+import txBuilder from './tx_builder_mock';
+import {sender_account, receiver_account} from '../helpers/accounts';
 
 /**
  * send Ether through a signed transaction function.
@@ -13,7 +13,6 @@ import {sender_account, receiver_account} from '../accounts/accounts';
  * @param txData: data object to pass to txBuilder.
  */
 async function sendEther() {
-  console.log(await web3.eth.getBalance(sender_account));
   //make the value dynamic if you like
   const value = web3.utils.toWei('20', "ether");
   //get the gas limit by using estimageGas function (wei)
@@ -23,7 +22,7 @@ async function sendEther() {
   //get the nonce for the sending account
   const nonce = await web3.eth.getTransactionCount(sender_account);
   //Specifiy private key
-  const privateKey = "PRIVATE_KEY";
+  const privateKey = "PRIVATE_KEY_TEST";
   //optional logs for sanity checks
   console.log('Building Transaction');
   //build transaction object -- see tx_builder.js for input parameters

@@ -1,7 +1,17 @@
 # NodeJS Ethereum Transaction
+
+<div>
+
+[![Build Status](https://travis-ci.org/NFhbar/nodeJS-ETH-transaction.png?branch=master)](https://travis-ci.org/NFhbar/nodeJS-ETH-transaction)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+
+</div>
+
+
 Sends Ether from one account to another using an off-line signing transaction method through [ethereumjs-tx](https://github.com/ethereumjs/ethereumjs-tx).
 Currently runs on Ganache but you could easily set it up for your own [geth node](https://github.com/ethereum/go-ethereum/wiki/geth).
 Transaction builder with switch cases if you want to add support for other type of transactions.
+Medium article [here](https://medium.com/@NicoFrega/sign-an-ethereum-transaction-off-line-d3e38fbda677).
 
 # Install
 - Clone repo to local machine
@@ -17,6 +27,7 @@ Transaction builder with switch cases if you want to add support for other type 
 - Select option "1" from the menu to send Ether
 - console will return receipt
 - you can also see the transaction in your Ganache instance
+- to run test: ```npm run test ```
 
 # Accounts
 The first two accounts provided by Ganache are used. The private key is imported using the ```.env``` file. In production this should never be visible but here it is included for illustration purposes.

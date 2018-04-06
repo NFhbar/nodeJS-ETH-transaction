@@ -1,5 +1,5 @@
-const sender_account = "0x627306090abaB3A6e1400e9345bC60c78a8BEf57";
-const receiver_account = "0xf17f52151EbEF6C7334FAD080c5704D77216b732";
+const sender_account = "0x079736f834F221f401df6010BcFE09FEb042Cb7A";
+const receiver_account = "0x43aa18FAAE961c23715735682dC75662d90F4DDe";
 
 export {
   sender_account,

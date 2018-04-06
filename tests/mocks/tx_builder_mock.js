@@ -1,4 +1,4 @@
-import web3 from '../web3/web3.js';
+import web3 from '../helpers/web3.js';
 var Tx = require('ethereumjs-tx');
 require('dotenv').config();
 
