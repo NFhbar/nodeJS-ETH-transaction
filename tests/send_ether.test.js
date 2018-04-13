@@ -1,6 +1,6 @@
 import web3 from './helpers/web3'
 import {sender_account, receiver_account} from './helpers/accounts'
-var Tx = require('ethereumjs-tx')
+const Tx = require('ethereumjs-tx')
 import sendEther from './mocks/send_ether_mock'
 
 test('sends ether correctly', async () => {

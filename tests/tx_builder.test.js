@@ -1,6 +1,6 @@
 import web3 from './helpers/web3'
 import {sender_account, receiver_account} from './helpers/accounts'
-var Tx = require('ethereumjs-tx')
+const Tx = require('ethereumjs-tx')
 import txBuilder from './mocks/tx_builder_mock'
 
 test('builds a transaction correctly', async () => {
