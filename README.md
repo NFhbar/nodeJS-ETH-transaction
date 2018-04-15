@@ -3,6 +3,7 @@
 <div>
 
 [![Build Status](https://travis-ci.org/NFhbar/nodeJS-ETH-transaction.png?branch=master)](https://travis-ci.org/NFhbar/nodeJS-ETH-transaction)
+[![Coverage Status](https://coveralls.io/repos/github/NFhbar/nodeJS-ETH-transaction/badge.svg?branch=master)](https://coveralls.io/github/NFhbar/nodeJS-ETH-transaction?branch=master)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/NFhbar/nodeJS-ETH-transaction/issues)
 
 </div>
