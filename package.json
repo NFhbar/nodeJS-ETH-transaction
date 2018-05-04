@@ -1,12 +1,14 @@
 {
   "name": "node_menu_tx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NodeJS Ethereum Tx with Ganache",
   "main": "app.js",
   "scripts": {
     "start": "babel-node --presets es2015 app.js",
     "ganache": "ganache-cli -p 8545 --deterministic > /dev/null &",
     "stop": "sudo kill `sudo lsof -t -i:8545`",
+    "fix": "eslint ./ --fix",
+    "lint": "eslint ./",
     "test": "npm run ganache sleep 5 && jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "keywords": [
@@ -36,6 +38,7 @@
   },
   "devDependencies": {
     "coveralls": "^3.0.0",
+    "eslint": "^4.19.1",
     "jest": "^22.4.3"
   }
 }

@@ -1,8 +1,8 @@
 //Menu
-import menu from 'node-menu';
-import Header from './menu/header.js';
+import menu from 'node-menu'
+import Header from './menu/header.js'
 //Functions
-import sendEther from './functions/send_ether.js';
+import sendEther from './functions/send_ether.js'
 
 menu.addDelimiter('-', 40, '')
 
@@ -11,8 +11,8 @@ menu.addDelimiter('-', 40, '')
     .customHeader(Header)
     .disableDefaultHeader()
     .customPrompt(function() {
-        process.stdout.write("\nEnter selection:\n");
+        process.stdout.write('\nEnter selection:\n')
     })
     .disableDefaultPrompt()
 
-    .start();
+    .start()
