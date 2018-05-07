@@ -1,5 +1,7 @@
 # NodeJS Ethereum Transaction
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/NFhbar/nodeJS-ETH-transaction.svg)](https://greenkeeper.io/)
+
 <div>
 
 [![Build Status](https://travis-ci.org/NFhbar/nodeJS-ETH-transaction.png?branch=master)](https://travis-ci.org/NFhbar/nodeJS-ETH-transaction)
